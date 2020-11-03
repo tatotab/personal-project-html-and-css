@@ -95,11 +95,18 @@ nav{
 }
 .aside{
     width: 270px;
-    height:3000px;
+    height:2450px;
     display:flex;
     flex-direction: column;
-    align-content: space-between;
+    justify-content: space-between;
     
+}
+#square{
+    display: inline;
+    width:14px;
+    height: 14px;
+    background: linear-gradient(to bottom, 
+        #1ABC9C 50%, #46D1FF 50% 50%);
 }
 article{
     width: 850px;
@@ -113,6 +120,8 @@ article{
     flex-direction: column;
 }
 .aside-nested{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #DEE5E9;
@@ -166,14 +175,39 @@ a{
 .aside2 button i:hover{
     color:white;
 }
+.aside3 .aside-nested{
+    display: flex;
+    flex-wrap: wrap;
+    color:#A1B1BC;
+    line-height: 24px;
+    border-bottom:1px solid #DEE5E9;
+    
+    align-content: auto;
+
+}
+#tag{
+    height:30px;
+    width:auto;
+    background-color: #ECF0F1;
+    color:#34495E;
+    border: 1px solid #ECF0F1;
+    border-radius: 5px;
+    padding:0px 8px;
+    margin:2px;
+    font-weight: 600;
+}
+#tag:hover{
+    color:white;
+    background-color: #1FCDAB;;
+}
 .aside4 .aside-nested{
-    font-family: 'Lato', sans-serif;
+    
     display: flex;
     flex-direction: column;
-    font-size: 14px;
     color:#A1B1BC;
     height:440px;
     justify-content: space-around ;
+    border-bottom: none;
 }
 .aside4 .aside-nested div{
     display:flex;
@@ -183,6 +217,25 @@ a{
 }
 .aside4 .aside-nested div:hover{
     color:#1ABC9C;
+}
+.aside5 > .aside-nested{
+    display: flex;
+    flex-direction: column;
+    color:#A1B1BC;
+    line-height: 24px;
+    border-bottom:1px solid #DEE5E9;
+    justify-items: space-between;
+
+}
+#title{
+    display:inline-block;
+    width:150px;
+    height: 40px;
+    box-sizing: border-box;
+    
+}
+.aside5 .aside-nested b{
+    color:black;
 }
 
 
