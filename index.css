@@ -58,7 +58,7 @@ nav{
     border-top: 5px solid #1ABC9C;
 }
 .lower{
-    background-color: #222533;
+    background-color: #444652;
     display: flex;
     flex-direction: row;
     padding-left: 375px;
@@ -88,8 +88,8 @@ nav{
     margin-left: 375px;
     margin-right: 375px;
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-between;
+    align-content: space-between;
     
     font-family: 'Lato', sans-serif;
 }
@@ -108,13 +108,7 @@ nav{
     background: linear-gradient(to bottom, 
         #1ABC9C 50%, #46D1FF 50% 50%);
 }
-article{
-    width: 850px;
-    height:3000px;
-    display:flex;
-    flex-direction: column;
-    background-color: navy;
-}
+
 .aside1{ 
     display: flex;
     flex-direction: column;
@@ -237,7 +231,89 @@ a{
 .aside5 .aside-nested b{
     color:black;
 }
+.picture{
+    height:400px;
+    width:850px;
+    background-color: #CCCCCC;
+}
+article{
+    width: 860px;
+    height:3050px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    color:#A1B1BC;
+}
+
+.article{
+    margin:30px 0;
+}
+.article #hh{
+    color:#2C3E50;
+    font-size: 30px;
+}
+.artcile #hh:hover{
+    color:#1ABC9C;
+}
+#content1{
+    padding-top:20px;
+    line-height: 24px;
+    border-top: 1px solid #ECF0F1;
+    margin-right: 20px;
+}
+article button{
+    width: 150px;
+    height:50px;
+    margin-top: 20px;
+    font-size:16px;
+    color:#2C3E50;
+    font-weight: 900px;
+}
+article button:hover{
+    background-color: #2C3E50;
+    color:white;
+}
+article a{
+    color:inherit;
+}
+article a:hover{
+    color:#1ABC9C;
+}
+.arrows{
+    width:850px;
+    height:400px;
+    display:flex;
+    justify-content: space-between;
+    
 
 
+}
+.arrows button{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 3px;
+    margin: 175px -1px;
+    
+}
+#circles{
+    color:white;
+    flex-wrap: wrap;
+    justify-self: space-around;
+    align-self: flex-end;
+    padding:20px;
+    word-spacing: 10px;
+}
 
-
+.third a{
+    font-size: unset; 
+    text-decoration: unset;
+    text-decoration: underline;
+    color:#2C3E50; 
+}
+note{
+    color: #1ABC9C;
+}
