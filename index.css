@@ -2,6 +2,7 @@
 
 html, body{
     width: 1920px;
+    min-width:1920px;
     height:5000px;
     
     overflow-x: hidden;
@@ -80,10 +81,12 @@ nav{
     font-size: 14px;
     padding-top:53px;
     width: 220px;  
+    min-width: 220px;
 }
 
 .content{
     margin-top: 100px;
+    margin-bottom: 100px;
     height: 3000px;
     margin-left: 375px;
     margin-right: 375px;
@@ -95,6 +98,7 @@ nav{
 }
 .aside{
     width: 270px;
+    min-width: 270px;
     height:2450px;
     display:flex;
     flex-direction: column;
@@ -104,6 +108,7 @@ nav{
 #square{
     display: inline;
     width:14px;
+    min-width: 14px;
     height: 14px;
     background: linear-gradient(to bottom, 
         #1ABC9C 50%, #46D1FF 50% 50%);
@@ -126,6 +131,7 @@ nav{
     
     height: 40px;
     width: 40px;
+    min-width:40px;
     border-radius: 3px;
     background-color: #CCCCCC;
     margin-right:10px;
@@ -145,6 +151,7 @@ a{
 .nested-nested{
     margin-bottom: 16px;
     width:205px;
+    min-width:205px;
     line-height: 24px;
 
 }
@@ -224,6 +231,7 @@ a{
 #title{
     display:inline-block;
     width:150px;
+    min-width: 150px;
     height: 40px;
     box-sizing: border-box;
     
@@ -234,10 +242,12 @@ a{
 .picture{
     height:400px;
     width:850px;
+    min-width: 850px;
     background-color: #CCCCCC;
 }
 article{
     width: 860px;
+    min-width: 860px;
     height:3050px;
     display:flex;
     flex-direction: column;
@@ -265,6 +275,7 @@ article{
 }
 article button{
     width: 150px;
+    min-width: 150px;
     height:50px;
     margin-top: 20px;
     font-size:16px;
@@ -283,6 +294,7 @@ article a:hover{
 }
 .arrows{
     width:850px;
+    min-width: 850px;
     height:400px;
     display:flex;
     justify-content: space-between;
@@ -293,6 +305,7 @@ article a:hover{
 .arrows button{
     height: 50px;
     width: 50px;
+    min-width: 50px;
     background-color: white;
     border: 1px white solid;
     border-radius: 3px;
@@ -316,4 +329,12 @@ article a:hover{
 }
 note{
     color: #1ABC9C;
+}
+.part1{
+    background-color: #1A1C27;
+    height:480px;
+    min-width: 1920px;
+    padding:0px 375px;
+    margin-top:50px;
+    
 }
